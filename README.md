@@ -1,5 +1,4 @@
-# zachestnyibiznes-webintegration-ruby
-Инструкция WEB интеграции на Ruby on Rails
+# Инструкция WEB-интеграции API на Ruby on Rails
 
 ## Установка и настройка интеграции
 
