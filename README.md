@@ -3,7 +3,7 @@
 
 ## Установка и настройка интеграции
 
-Добавьте в Gemfile гем rest-client:
+* Добавьте в Gemfile гем rest-client:
 
 ```ruby
 # Gemfile
@@ -11,15 +11,15 @@
 gem 'rest-client'
 ```
 
-Выполните установку гема, запустив bundle:
+* Выполните установку гема, запустив bundle:
 
 ```bash
 $ bundle install
 ```
 
-После этого можно вставить приложение код интеграции:
+После этого можно вставить приложение код интеграции.
 
-Ваш action в контроллере:
+* Ваш action в контроллере:
 
 ```ruby
 #app/controllers/welcome_controller.rb
@@ -51,7 +51,7 @@ class WelcomeController < ApplicationController
 end
 ```
 
-Ваш view для этого экшена:
+* Ваш view для этого экшена:
 
 ```erb
 <%= raw @response %>
