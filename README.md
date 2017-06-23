@@ -54,7 +54,7 @@ end
 * Ваш view для этого экшена:
 
 ```erb
-#app/views/welcome/index.html.erb
+<%# app/views/welcome/index.html.erb %>
 
 <%= raw @response %>
 ```
